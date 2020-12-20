@@ -1,6 +1,5 @@
 // load tag model
 const Setting = require('../models/Setting')
-const settingsJson = require('../config/settings.json')
 
 const path = require('path')
 const fs = require('fs')
@@ -9,9 +8,6 @@ const fs = require('fs')
 exports.fetchSettings = async (req, res) => {
   try {
     const allSettings = await Setting.find()
-    if (allSettings.length === 0) {
-      await Setting.create(settingsJson)
-    }
 
     const settings = {}
     allSettings.forEach(s => {
