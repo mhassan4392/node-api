@@ -1,5 +1,4 @@
 const Lang = require('../models/Lang')
-const defaultTranslations = require('../localization/locales/en.json')
 
 // required deepMerge
 const deepmerge = require('../utils/deepMerge')
@@ -7,12 +6,7 @@ const deepmerge = require('../utils/deepMerge')
 // get all languagess
 exports.getLanguages = async (req, res, next) => {
   try {
-    let languages = await Lang.find()
-    if (languages.length === 0) {
-      const lang = { name: 'English', locale: 'en', translations: defaultTranslations }
-      await Lang.create(lang)
-      languages = await Lang.find()
-    }
+    const languages = await Lang.find()
     const langs = languages.map(lang => {
       const la = { _id: lang._id, name: lang.name, locale: lang.locale }
       return la
