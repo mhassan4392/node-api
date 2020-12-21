@@ -2,7 +2,7 @@
     "app": {
       "title": "Brand",
       "favicon": "",
-      "logo": "logo.jpg"
+      "logo": ""
     },
     "smtp": {
       "host": null,

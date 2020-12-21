@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/dashboard/localization/languages", {data:[],fetch:[],mutations:[["auth\u002FSET",{key:"redirect",value:"\u002Fdashboard\u002Flocalization\u002Flanguages"}]]});

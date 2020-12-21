@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/dashboard/utilities/icons", {data:[],fetch:[],mutations:[["auth\u002FSET",{key:"redirect",value:"\u002Fdashboard\u002Futilities\u002Ficons"}]]});

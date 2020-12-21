@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/dashboard/menus/add", {data:[],fetch:[],mutations:[["auth\u002FSET",{key:"redirect",value:"\u002Fdashboard\u002Fmenus\u002Fadd"}]]});
