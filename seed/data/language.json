@@ -492,7 +492,7 @@
         },
         "successMessages": {
             "auth":{
-                "userRegisterd": "User Registerd",
+                "userRegisterd": "You Are Registerd Plz Login",
                 "passwordReset": "Password Reset",
                 "resetPasswordMailSent": "Reset Password Mail Sent"
             },
